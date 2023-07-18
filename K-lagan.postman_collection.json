@@ -1,0 +1,477 @@
+{
+	"info": {
+		"_postman_id": "51ff3301-e9eb-461c-81b6-1c38be0e3387",
+		"name": "K-lagan",
+		"description": "Lista de pruebas anexadas en el reto técnico",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5401646",
+		"_collection_link": "https://universal-shadow-153277.postman.co/workspace/Team-Workspace~6dd38d98-3396-4578-8802-5c203bfc9037/collection/5401646-51ff3301-e9eb-461c-81b6-1c38be0e3387?action=share&creator=5401646&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Prueba 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/prices?applicationDate=2020-06-14-10:00:00&productId=35455&chainId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14-10:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "chainId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/prices?applicationDate=2020-06-14-10:00:00&productId=35455&chainId=1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "applicationDate",
+									"value": "2020-06-14-10:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "chainId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Jul 2023 10:12:51 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"startDate\": \"2020-06-14-00:00:00\",\n    \"endDate\": \"2020-12-31-23:59:59\",\n    \"productId\": 35455,\n    \"price\": 35.5,\n    \"chain\": {\n        \"id\": 1\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Prueba 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/prices?applicationDate=2020-06-14-16:00:00&productId=35455&chainId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14-16:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "chainId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 2",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/prices?applicationDate=2020-06-14-16:00:00&productId=35455&chainId=1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "applicationDate",
+									"value": "2020-06-14-16:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "chainId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Jul 2023 10:13:59 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"startDate\": \"2020-06-14-15:00:00\",\n    \"endDate\": \"2020-06-14-18:30:00\",\n    \"productId\": 35455,\n    \"price\": 25.45,\n    \"chain\": {\n        \"id\": 1\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Prueba 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/prices?applicationDate=2020-06-14-21:00:00&productId=35455&chainId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14-21:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "chainId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/prices?applicationDate=2020-06-14-21:00:00&productId=35455&chainId=1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "applicationDate",
+									"value": "2020-06-14-21:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "chainId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Jul 2023 10:14:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"startDate\": \"2020-06-14-00:00:00\",\n    \"endDate\": \"2020-12-31-23:59:59\",\n    \"productId\": 35455,\n    \"price\": 35.5,\n    \"chain\": {\n        \"id\": 1\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Prueba 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/prices?applicationDate=2020-06-15-10:00:00&productId=35455&chainId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-15-10:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "chainId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 4",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/prices?applicationDate=2020-06-15-10:00:00&productId=35455&chainId=1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "applicationDate",
+									"value": "2020-06-15-10:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "chainId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Jul 2023 10:15:13 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"startDate\": \"2020-06-15-00:00:00\",\n    \"endDate\": \"2020-06-15-11:00:00\",\n    \"productId\": 35455,\n    \"price\": 30.5,\n    \"chain\": {\n        \"id\": 1\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Prueba 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/prices?applicationDate=2020-06-16-21:00:00&productId=35455&chainId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-16-21:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "chainId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Prueba 5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/prices?applicationDate=2020-06-16-21:00:00&productId=35455&chainId=1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "applicationDate",
+									"value": "2020-06-16-21:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "chainId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 18 Jul 2023 10:15:43 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"startDate\": \"2020-06-15-16:00:00\",\n    \"endDate\": \"2020-12-31-23:59:59\",\n    \"productId\": 35455,\n    \"price\": 38.95,\n    \"chain\": {\n        \"id\": 1\n    }\n}"
+				}
+			]
+		}
+	]
+}
